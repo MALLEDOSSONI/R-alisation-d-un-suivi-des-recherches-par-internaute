@@ -1,0 +1,28 @@
+<?php
+    ob_start();
+    session_start();
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <h2>Entre votre Username et Password</h2>
+        <div class="container form-signin">
+
+        </div>
+        <div class="container">
+            <form action="" method="post">
+                <h4 class="form-signin-heading"></h4>
+                <input type="text" class="form-control" name="user" placeholder="Votre login" required><br>
+                <input type="text" class="form-control" name="password" placeholder="Votre mode pass" required>
+                <button class="btn btn-lg btn-primary btn-block" type="submit" name="login">Login</button>
+            </form>
+            Pour sortir Clique ici<a href="logout.php" title="Logout">Logout</a>Session.
+        </div>
+
+
+    </body>
+</html>
